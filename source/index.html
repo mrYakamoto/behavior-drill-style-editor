@@ -4,14 +4,14 @@
     <title>Style Editor</title>
     <link rel="stylesheet" type="text/css" href="main.css">
     <script src="jquery-1.10.js"></script>
-    <script src="style.js"></script>
   </head>
+
   <body>
     <div class="container">
       <form id="style_editor" name="style_editor">
-        <input name="selector" placeholder="css selector" />
-        <input name="property" placeholder="property" />
-        <input name="value" placeholder="value" />
+        <input id="selector" name="selector" placeholder="css selector" />
+        <input id="property" name="property" placeholder="property" />
+        <input id="value" name="value" placeholder="value" />
         <input type="submit" value="Style it!" />
       </form>
 
@@ -50,4 +50,5 @@
       </div>
     </div>
   </body>
+  <script src="style.js"></script>
 </html>
